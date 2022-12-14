@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pizza in America</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Pizza in America</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="nav item"class= "w3-bar-item w3-button">Papa's Tomato Pies</a>
+      <a href="nav item"class="w3-bar-item w3-button">Lombardi's</a>
+      <a href="nav item"class="w3-bar-item w3-button">O'Scugnizzo's</a>
+      <a href="nav item"class="w3-bar-item w3-button">Totonno's</a>
+      <a href="nav item"class="w3-bar-item w3-button">Frank Pepe's</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="pizza" src="pizza.jpg" alt="slice of pizza" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">From Italian Roots to the East Coast</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="/w3images/tablesetting2.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+  <hr>
+      <div class="w3-col m6 w3-padding-large">
+      <img src="papas.jpg" class="rounded" alt="Papa's Tomato Pies" width="700" height="600">
+      <h1 class="w3-center">Papa's Tomato Pies</h1><br>
+      <h5 class="w3-center">Since 1912</h5>
+      <p class="w3-large">Papa’s Tomato Pies is the oldest family owned and continually run pizzeria in the U.S.A. It was established in 1912. First located on Butler Street in Trenton in 1912 and then moved to 802 Chambers Street in 1945 donating the original location to become the Neopolitan Hall . We moved to our present location in August of 2013. Papa’s is a New Jersey institution , loved locally and known to pizza lovers everywhere.I am lucky enough to be an Azzaro and have grown up with this historical pizza my entire life! My father Mike Azzaro is the current Manager at Papa's.</p>
+    </div>
+  </div>
+  <div class="w3-col m6 w3-padding-large">
+    <img src="lombardis.jpg" class="rounded" alt="Lombardi's" width="700" height="600">
+      <h1 class="w3-center">Lombardi'ss</h1><br>
+      <h5 class="w3-center">Since 1905</h5>
+      <p class="w3-large">Lombardi is credited with developing New York Style pizza and making Lombardi's the first pizzeria in the United States. Since 1905 Gennaro Lombardi crafted pizza in the United States using his bakers trade he learned from Naples. America's First Family of Pizza Est. 1905</p>
+    </div>
+  </div>
+  <div class="w3-col m6 w3-padding-large">
+    <img src="opizza.jpg" class="rounded" alt="O'Scugnizzo" width="700" height="600">
+      <h1 class="w3-center">O'Scugnizzo</h1><br>
+      <h5 class="w3-center">Since 1914</h5>
+      <p class="w3-large">O'Scugnizzo Pizzeria was founded in 1914 by Eugeno Burlino. He only sold tomato pie (a pizza without mozzarella cheese) and they only cost a nickel. He was then succeeded by his son, Angelo "Chops" Burline, who made O'Scugnizzo what it is today. O'Scugnizzo is still in business in the beautiful city of Utica and is now run by his son Steven Burline.</p>
+    </div>
+</div>
+    <div class="w3-col m6 w3-padding-large">
+      <img src="totonnos.jpg" class="rounded" alt="Totonno's" width="700" height="600">
+      <h1 class="w3-center">Totonno's</h1><br>
+      <h5 class="w3-center">Since 1924</h5>
+      <p class="w3-large">Totonno’s Pizzeria Napolitana in Coney Island, pizzas have been made in the same way in the same spot since 1924.  Anthony (Totonno) Pero, grandfather to Louise Ciminieri, Frank Balzano, Antoinette (Annette)  Balzano, and great grandfather to Lawrence Ciminieri, immigrated from Naples and began making pizzas for Lombardi’s grocery store on Spring Street in Manhattan.</p>
+    </div>
+  </div>
+    <div class="w3-col l6 w3-padding-large">
+      <img src="/w3images/tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>Contact us if you would like to be featured on our page! Must provide proof of start date of pizzeria.</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
